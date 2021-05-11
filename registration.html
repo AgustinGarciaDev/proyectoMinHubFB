@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game info</title>
+    <link rel="stylesheet" href="./css/nysl_3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="home">
+        <h1 class="tittle">Northside Youth Soccer League</h1>
+        <img class="logo" src="./img/nysl_logo.png" alt="Logo">
+    </header>
+    <section class="indication_page">
+        <h2>Registration</h2>
+    </section>
+    <a class="nav_open" href="#modal_nav"><i class="fas fa-bars"></i></a>
+    <div id="modal_nav" class="modal_none  bloque_position">
+
+        <nav>
+            <a class="nav_close" href=""><i class="fas fa-times"></i></a>
+            <ul class="list_nav_style">
+                <li class="list_item">
+                    <a class="text_nav" href="./about.html">About NYSL</a>
+                </li>
+                <li class="list_item">
+                    <a class="text_nav" href="#">Home</a>
+                </li>
+                <li class="list_item">
+                    <a class="text_nav" href="./game_info.html">Game info</a>
+                </li>
+                <li class="list_item">
+                    <a class="text_nav" href="./contact.html">Contact</a>
+                </li>
+                <li class="list_item">
+                    <a class="text_nav" href="./rules.html">Reglas</a>
+                </li>
+                <li class="list_item">
+                    <a class="text_nav" href="./registration.html">Registration</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main class="position">
+        <aside class="nav_position">
+            <nav class="nav">
+                <a class="btn-nav" href="./index.html">Home</a>
+                <a class=" btn-nav" href="./about.html">About NYSL</a>
+                <a class="btn-nav" href="./contact.html">Contact</a>
+                <a class="btn-nav " href="./game_info.html">Game info</a>
+                <a class="btn-nav btn-five" href="#">Game rules</a>
+            </nav>
+        </aside>
+
+        <section>
+            <h2 class="tittle_block">Registration Form</h2>
+            <form action="./show_data.html">
+                <div class="bloque_1">
+                    <label class="bloque_interno">
+                        <span>Player’s First Name:</span> <br>
+                        <input class="input_form" placeholder="Name" type="text" name="first_name">
+                    </label>
+                    <label class="bloque_interno">
+                        <span>Last Name:</span> <br>
+                        <input placeholder="Last Name" class="bloque_1" type="text" name="first_name">
+                    </label>
+                </div>
+                <div class="bloque_2">
+                    <label>
+                        <span>Street Address:</span> <br>
+                        <input placeholder="Direction" class="input_bloque_2" type="text" name="streat_address">
+                    </label>
+                </div>
+                <div class="bloque_1">
+                    <label class="bloque_interno">
+
+                        <span>City:</span> <br>
+                        <input placeholder="City" type="text" name="city">
+                    </label>
+                    <label class="bloque_interno">
+                        <span>Zip Code:</span> <br>
+                        <input placeholder="Zip Code" type="text" name="Zip_Code">
+                    </label>
+                </div>
+                <div class="bloque_3">
+                    <label>
+                        <span>Birth Date(mm/dd/yyyy):</span> <br>
+                        <input type="date" name="fecha">
+                    </label>
+                </div>
+                <div class="bloque_3">
+                    <span>Gender:</span> <br>
+                    <label>
+                        Female <input type="radio" name="gender" value="female">
+                    </label>
+                    <label>
+                        Male <input type="radio" name="gender" value="male">
+                    </label>
+
+                </div>
+                <div class="bloque_2">
+                    <label>
+                        <span>Grade:</span> <br>
+                        <select class="input_bloque_2" name="grade" id="grade">
+                            <option value="Pre-School">Pre-School</option>
+                            <option value="1st">1st</option>
+                            <option value="2nd">2nd</option>
+                            <option value="3rd">3rd</option>
+                            <option value="4th">4th</option>
+                            <option value="5th">5th</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="bloque_2">
+                    <label>
+                        <span>Which elementary school do you live near?<br>Closest School:</span> <br>
+
+                        <select class="input_bloque_2" name="near">
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="bloque_2">
+                    <label>
+                        <span>What position(s) do you normally play?<br>(check all that apply)</span> <br>
+                        <select class="input_bloque_2" name="position_alumno">
+                            <option value="Forward">Forward</option>
+                            <option value="Defense">Defense</option>
+                            <option value="Midfield">Midfield</option>
+                            <option value="Goalkeeper">Goalkeeper</option>
+
+                        </select>
+                    </label>
+                </div>
+                <div class="bloque_2">
+                    <label>
+                        <span>Uniform Size:</span> <br>
+
+                        <select class="input_bloque_2" name="uniform">
+                            <option value="Youth Smal">Youth Small</option>
+                            <option value="Youth Medium">Youth Medium</option>
+                            <option value="Youth Large">Youth Large</option>
+                            <option value="Small">Small</option>
+                            <option value="Small">Small</option>
+                            <option value="Large">Large</option>
+                            <option value="Extra-Large">Extra-Large</option>
+
+                        </select>
+                    </label>
+                </div>
+
+                <label class="terms_and_conditions">
+                    <span>Permission to Play</span>
+                    <span class="text_terms_and_conditions">
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by
+                        all the rules of the
+                        Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury
+                        associated with soccer and in
+                        consideration for the “League” accepting the registrant for its soccer programs and activities,
+                        I hereby release,
+                        discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and
+                        volunteers,including the
+                        facilities used for practices and games, against any claim by or on behalf of the registrant as
+                        a result of the
+                        registrant’s participation in the programand/orbeing transported to or from NYSL sponsored
+                        activities,which
+                        transportation
+                        <br>
+                        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso
+                        acknowledge that I have read
+                        the cancellation policy and agree to its terms.
+                    </span>
+                </label>
+                <div class="bloque_3">
+                    <label>
+                        <span>
+                            <input type="checkbox" name="terms conditions" id="Select">
+                            I accept all the terms and conditions
+                        </span>
+
+
+                    </label>
+                </div>
+                <label>
+
+                    <input class="btn_submit" type="submit" value="submit">
+                </label>
+
+            </form>
+        </section>
+
+
+    </main>
+    <script src="https://kit.fontawesome.com/a43f0d7568.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

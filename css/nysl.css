@@ -1,0 +1,49 @@
+*:not(dl, main) {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background-image: url(../img/design1_image1.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+}
+
+.tittle {
+  color: white;
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+.event_upcoming {
+  width: 100vw;
+  background-color: #033949;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 46vh;
+  display: block;
+}
+.logo {
+  height: 100px;
+  position: absolute;
+  top: 40vh;
+  left: 80vw;
+  z-index: 1;
+}
+.nav-position {
+  max-width: 20vh;
+}
+.nav a {
+  display: block;
+  padding: 10px;
+}
+.date {
+  margin-left: 219px;
+  margin-top: -103px;
+}
+
+.values_company {
+  padding: 16px 0 16px 0px;
+  margin-right: 20px;
+}

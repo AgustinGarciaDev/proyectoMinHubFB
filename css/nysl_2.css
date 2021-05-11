@@ -1,0 +1,79 @@
+*:not(dl, main) {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background-image: url(../img/design2_image1.jpg);
+  height: 76vh;
+  background-size: cover;
+  background-position: top;
+  margin-top: 51px;
+}
+
+.hidden_tittle {
+  display: none;
+}
+.tittle {
+  color: black;
+  padding: 0.5rem 0 0 0.5rem;
+  position: absolute;
+  top: 0px;
+}
+
+.event_upcoming {
+  width: 100vw;
+  background-color: #033949;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 81vh;
+  display: block;
+}
+.logo {
+  height: 150px;
+  position: absolute;
+  top: 91vh;
+  bottom: 80vh;
+  z-index: 1;
+
+  padding-left: 37px;
+}
+
+.btn-nav {
+  text-align: center;
+  margin: 10px;
+  background: green;
+  text-decoration: none;
+  color: white;
+  box-shadow: 2px 4px 2px black;
+}
+.btn-one {
+  background: blue;
+}
+.btn-sec {
+  background: blue;
+}
+.btn-thr {
+  background: blue;
+}
+.nav_position {
+  position: absolute;
+  /* top: 37px; */
+  top: 6vh;
+  right: 16px;
+}
+
+.nav a {
+  padding: 10px;
+}
+.date {
+  margin-top: 15px;
+  margin-left: 219px;
+  /*  margin-top: -103px; */
+}
+
+.values_company {
+  padding: 16px 0 16px 0px;
+  margin-right: 20px;
+}
